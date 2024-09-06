@@ -27,5 +27,6 @@ grades_m = [sum(grades[0])/len(grades[0]), sum(grades[1])/len(grades[1]),
 students_sort = sorted(students)
 print(students_sort)
 
-dict1 = zip(students_sort, grades_m)
+dict1 = dict(zip(students_sort, grades_m))
+print(dict1)
 
